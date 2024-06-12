@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+}
+
+/* Navigation */
+/*
+li{
+    list-style: none;
+    padding: 15px;
+    color: orange;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+}*/
+/*About Section*/
+.about{
+    justify-content: space-around;
+    background: url(images/background.jpg) top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    color: orange;
+    display: flex;
+    flex-direction: row;
+    text-align: center; 
+}
+
+.main{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+/* Call to Action Section */
+
+.cta{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50vh;
+}
+.text
+{
+    color: black;
+}
+.cta-main1{
+
+    width: 55%;
+    padding: 65px;
+    
+}
+
+.cta-main2{
+
+    width: 45%;
+    padding: 65px;
+    
+}
+.italics{
+    text-decoration: dotted;
+}
+
+/* Latest Updates Section */
+
+.lud{
+    background-color: #fceee2;
+    padding: 65px;
+}
+.box{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    flex-direction: row;
+}
+.box1, .box2{
+    width: 50%;
+    padding: 40px;
+    height: 150px;
+    box-shadow: 20px #43362b;
+    margin-right: 25px;
+    background-color: white;
+}
+.box2{
+    margin-left: 25px;
+}
+
+/* Roadmap Section */
+
+
+
